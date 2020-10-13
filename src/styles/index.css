@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+  }
+  .theSiteNavbar>li>a>p{
+    color:#9daaaa;
+  }
+
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  .myCon{
+    padding: 0 65px;
+  }
+
+  body {
+    margin: 0 0 80px;
+    /* bottom = footer height */
+  }
+
+  .form-control{
+    width: auto;
+    display: inline;
+  }
+
+  footer {
+      background-color: #1f2227;
+      color:#aaa;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 80px;
+      width: 100%;
+      overflow: hidden;
+  }
+
+  .footerli:hover{
+    border-bottom:2px solid #aaa;
+  }
+
+  html, body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #fafaff;
+  }
+  .container{
+    margin:10px 50px;
+  }
+
+  .row{
+    margin: none;
+    padding: none;
+  }
+
+   h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+  
+  .app-bar {
+    background-color: #1B1F21;
+    padding: 15px 15px;
+  }
+  
+  .app-bar-title {
+    font-family: 'Bangers', cursive;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    word-spacing: 6px;
+  }
+  
+  .app-section {
+    margin-top: 2rem;
+  }
+  
+  .card-selector-label {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .top-margin {
+    margin-top: 5rem;
+  }
+  
+  .top-margin-small {
+    margin-top: 2rem; 
+  }
+
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+p{
+  margin:0 !important;
+}
+
+a{
+  text-decoration: none !important;
+  color: black;
+}
+
+.breadcrumbs>span{
+  text-decoration: underline;
+}
+.MyUL{
+    width: 80%;
+    border:1px solid grey;
+    border-radius:20px;
+    margin: 20px 15px;
+    padding: 20px 20px;
+}
+
+.Header{
+    margin-bottom: 50px;
+}
+
+.theVideoDiv{
+    margin:35px;
+    padding-left: 20px;
+}
+video{
+    border:2px solid black;
+}
+
+/* .theDiv>a{
+  text-decoration: none;
+    color: black;
+} */
+.activeSpan{
+  text-decoration: none !important;
+}
+.theList{
+  display: inline-block;
+}
+.theList>li{
+  list-style-type: none;
+  display: inline;
+  width: 200px;
+}
+.theList>li>a{
+  text-align: center; 
+  text-transform: uppercase;
+}
+.theList>li>a>p{
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+}
+.card-img-top{
+  width: 200px;
+}
+.theDiv{
+  padding: 10px 10px;
+  box-shadow: 0;
+  transition: box-shadow 0.5s;
+}
+.theDiv:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thePlayVideo{
+  min-width: 700px;
+}
+.viewP{
+  font-size: 14px;
+  color: blue;
+  text-decoration: underline;
+}
+.videoTranscript{
+  margin: 10px 0;
+  padding: 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.subjectsDiv{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  height: 150px;
+  padding:20px;
+  text-align:center; 
+ display:table;
+}
+
+.subjectsDiv:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.subjectsDiv>h4{
+  display:table-cell; 
+  vertical-align:middle
+}
+
+/* #c {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#v {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -180px 0 0 -240px;
+} */
+video::-internal-media-controls-download-button { 
+  display:none !important; 
+} 
+
+video::-webkit-media-controls-enclosure { 
+  overflow:hidden !important; 
+} 
